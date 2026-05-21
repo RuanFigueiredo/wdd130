@@ -22,3 +22,31 @@ img{
 p {
   padding: 10;  
 }
+
+main{
+    max-width: 840px;
+}
+aside{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid gray;
+    background-color: rgb(108, 187, 88);
+    color: aquamarine;
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    height: auto;
+}
+
+p{
+    padding: 0;
+}
+
+footer{
+    border-top: 1px solid #000;
+    text-align: center;
+    margin-top: 15px;
+}
