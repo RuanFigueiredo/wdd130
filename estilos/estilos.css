@@ -1,3 +1,10 @@
+/*resetar css do meu proijeto*/
+*{
+    margin:0;
+    padding: 0;   
+    box-sizing: border-box; 
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -12,12 +19,13 @@ nav a {
 h1{
     color:darkblue;
 }
-img{
+main img{
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 p {
   padding: 10;  
@@ -28,12 +36,14 @@ main{
 }
 aside{
     width: 200px;
-    margin: 0;
-    padding: 0;
-    border: 1px solid gray;
-    background-color: rgb(108, 187, 88);
     color: aquamarine;
     text-align: center;
+    position: relative;
+}
+aside h2{
+    position: absolute;
+    top: 7px;
+    left: 90px;
 }
 
 img{
@@ -44,9 +54,20 @@ img{
 p{
     padding: 0;
 }
-
 footer{
     border-top: 1px solid #000;
     text-align: center;
     margin-top: 15px;
+}
+/*seletores de classe*/
+.caixa{
+    border: 1px solid gray;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(108, 187, 88);
+
+}
+
+.indentacao {
+    margin-left: 2rem ;
 }

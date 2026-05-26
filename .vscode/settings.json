@@ -42,5 +42,6 @@
   // Live and Live/Five Server settings
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
-  "liveServer.settings.port": 5505
+  "liveServer.settings.port": 5505,
+  "python-envs.defaultEnvManager": "ms-python.python:system"
 }
