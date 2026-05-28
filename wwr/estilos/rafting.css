@@ -22,12 +22,12 @@ body{
     color: var(--cor-destaque1);
 
 }
-header,main,footer{
+header, main, footer{
     width: 840px;
     margin: 0 auto;
     
 }
-h1,h2{
+h1, h2{
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
     text-align: center;
@@ -68,6 +68,6 @@ nav, p, section, article{
     padding: 8px;
 }
 
-.socialmedia a {
+nav.socialmedia a {
     text-decoration: none;
 }
