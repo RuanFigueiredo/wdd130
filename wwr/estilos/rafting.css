@@ -1,8 +1,6 @@
 :root {
     --cor-primaria: #055a05;
-    --cor-secundaria: #f4a261;
     --cor-destaque1: #264653;
-    --cor-destaque2: #e9c46a;
     --fonte-titulo: "Times new Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -70,6 +68,7 @@ nav, p, section, article{
     padding: 8px;
 }
 
-.socialmedia a {
+.socialmedia a,
+.redes-sociais {
     text-decoration: none;
 }
