@@ -46,7 +46,7 @@ h1 {
     color: #fff;
 }
 
-article{
+.hero article{
     position: absolute;
     bottom: 186px;
     color: #fff;
@@ -56,7 +56,7 @@ article{
 }
 article p, article h2 {
     margin:5px;
-    padding: 100 0;
+    padding: 100px 0px;  
 
 }
 
@@ -70,6 +70,6 @@ nav, p, section, article{
     padding: 8px;
 }
 
-.redes-sociais a {
+.socialmedia a {
     text-decoration: none;
 }
