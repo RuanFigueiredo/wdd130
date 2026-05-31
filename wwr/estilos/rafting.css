@@ -9,6 +9,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.navegacao{
+    display: flex;
+    list-style: none;
+}
+
+.navegacao li {
+    flex: 1 1 auto;
+}
+
+.navegacao a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
 .hero img{
     width: 100%;
     height: auto;
@@ -68,6 +95,68 @@ nav, p, section, article{
     padding: 8px;
 }
 
+.secao-historia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30%;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.container-foto{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-foto img{
+    width: 200px;
+    height: auto;
+   
+}
+
+.texto-lateral{
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+
 nav.socialmedia a {
     text-decoration: none;
 }
+
+.imagens-lado{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+figure{
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+figure img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption{
+    background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+.rodape{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+}
+
+
