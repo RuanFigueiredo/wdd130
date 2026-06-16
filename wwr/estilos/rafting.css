@@ -19,12 +19,37 @@
     flex: 1 1 auto;
 }
 
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contato-principal {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
 .navegacao a {
     display: block;
     color: navy;
     padding: 20px;
     text-decoration: none;
     font-size: 1.2rem;
+}
+
+.funcionarios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.funcionarios h2{
+    width: 100%;
+
 }
 
 header {
