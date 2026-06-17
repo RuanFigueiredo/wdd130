@@ -1,73 +1,100 @@
-<!-- Este é um comentário-->
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruan Thiago Silva de Figueiredo | WDD 130</title>
-    <meta name="description" content="Ruan Figueiredo - Fundamento da WEB, estilizar a página que fala sobre mim.">
-    <meta name="author" content="Ruan Figueiredo">
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <meta name="description" content="Sobre nós do Rafting onde existe visão da empresa e o que a empresa é.">
+    <meta name="author" content="Ruan Thiago Silva de Figueiredo">
+    <link rel="stylesheet" href="estilos/rafting.css">
+    <title>Página Inicial - Rio Abaixo</title>
 </head>
-
 
 <body>
     <header>
+        <img src="imagens/rio-abaixo-rafting.png" alt="logotipo">
         <nav>
-            <a href="#">Página Inicial</a>
-            <a href="index.html">Site de Rafting</a>
-            <a href="http://linkedin.com/ruan-silva-figueiredo">linkedin</a>
-            <a href="http://facebook.com">facebook</a>
+            <ul class="navegacao">
+                <a href="index.html">Página Inicial</a>
+                <a href="sobre.html"> Sobre Nós</a>
+                <a href="passeios.html">Passeios</a>
+                <a href="contato.html">Fale Conosco</a>
+            </ul>
         </nav>
     </header>
-    <div class="grid">
-        <main>
-            <h1>
-                Ruan Figueiredo | WDD 130
-            </h1>
-            <img src="imagens/perfil.jpg" alt="Olá, me chamo Ruan Figueiredo!" width="200">
-            <p class="indentacao">Olá! meu nome é ruan Figueiredo,sou natural de Natal/RN, moro em Blumenau/SC, sou
-                casado,tenho duas
-                filhas e corro cerca de 5km em circuitos de corrida.</p>
-            <p class="indentacao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex repellendus eos quidem
-                temporibus rem dolor
-                voluptatem sint aliquam illo asperiores, iusto qui sequi debitis, aspernatur ipsum labore iste nobis,
-                nam
-                inventore nostrum. At minus dolores veniam vel, voluptate ipsam. Odit, sapiente consequuntur. Itaque,
-                recusandae aspernatur nostrum quaerat architecto minus sequi.</p>
-            <p class="indentacao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde odit fuga veniam velit
-                laborum, aut numquam,
-                quibusdam doloremque tenetur maiores delectus dolore voluptatum nulla eos facilis quidem cumque, placeat
-                quaerat! Possimus cupiditate illum maiores, modi quis dolorem ducimus temporibus sequi.</p>
+    <main>
+        <section class="passeios">
+            <h2>Nossos Passeios de Rafting!</h2>
+            <p>
+                Veja agora nossa página de passeios e confira as ofertas inesquecíveis!
+            </p>
+            <a href="passeios.html" class="botao-de-passeios">Ofertas de passeios</a>
+        </section>
+        <section>
+            <div class="hero">
+                <img src="imagens/imagem1.jpg" alt="passeio de rafting">
+                <h1>Rio abaixo Rafting</h1>
+            </div>
+            <div class="formulario">
+                <form>
+                    <p>Se inscreva para a newsletter</p>
 
-            <ul class="caixa indentacao">
-                <li><a
-                        href="https://www.churchofjesuschrist.org/temples/details/miraflores-guatemala-city-guatemala-temple?lang=por">templo
-                        na guatemala</a>
-                </li>
-                <li><a
-                        href="https://www.churchofjesuschrist.org/temples/details/guatemala-city-guatemala-temple?lang=por">Outro
-                        templo na guatemala</a>
-                </li>
-                <li><a
-                        href="https://www.churchofjesuschrist.org/temples/details/oklahoma-city-oklahoma-temple?lang=por">Templo
-                        no Japão</a>
-                </li>
-            </ul>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
 
-        </main>
-        <aside class="caixa">
-            <h2>Santa Catarina</h2>
-            <img src="imagens/Parque_Vila_Germânica.jpg" alt="imagem do estado">
-            <p>O Estado de Santa Catarina, tem várias cidades que sãp pólos tecnologicos e de grandes indústrias de
-                marcas
-                grandes, além de uma cultura forte europeia em alguns municípios</p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
 
-        </aside>
-    </div>
-    <footer>
-        <p>©2026 💥Ruan Figueiredo💥 Santa Catarina, Brasil</p>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+
+                    <label for="newsletter">
+                        Quero receber a newsletter mensal
+                    </label>
+
+                    <button type="submit">Aplicar inscrição</button>
+                </form>
+            </div>
+        </section>
+        <section class="descricao-dos-passeios">
+            <h4>Uma prévia de como poderá ser seus passeios de Rafting!</h4>
+            <article class="passeio">
+                <img src="imagens/familia33.jpg" alt="familia33">
+                <div>
+                    <h3>Rafting para família</h3>
+                    <p>
+                        Nosso passeio familiar foi desenvolvido para proporcionar diversão, segurança e contato com a
+                        natureza para
+                        participantes de todas as idades. O percurso passa por corredeiras leves e trechos tranquilos do
+                        rio para que
+                        as famílias aproveitem o máximo possível.
+                </div>
+            </article>
+            <article class="passeio">
+                <img src="imagens/passeios31.jpg" alt="passeios31">
+                <div>
+                    <h3>Rafting aventura</h3>
+                    <p>
+                        O passeio de aventura é para quem busca mais emoção e desafios nas águas, com corredeiras
+                        moderadasa a intensas,
+                        e oferece mais adrenalina para os amigos aventureiros! Ah e cria memórias inesquevíceis!
+                    </p>
+                </div>
+            </article>
+    </main>
+    <footer class="rodape">
+        <p>©2026 Rio Abaixo - Ruan Figueiredo</p>
+        <nav class="redes-sociais">
+            <a href="https://facebook.com">
+                <img src="imagens/facebook.svg" alt="facebook">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="imagens/linkedin.svg" alt="linkedin">
+            </a>
+            <a href="https://instagram.com">
+                <img src="imagens/instagram.svg" alt="instagram">
+            </a>
+        </nav>
     </footer>
 </body>
 
